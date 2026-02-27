@@ -1,11 +1,12 @@
-from enemigo import *
+from Enemigo import *
 
-class zombie(enemigo):
-    def _int_(self, puntos_energia=10, ataque=1):
-        super().__init__(tipo_enemigo='zombie', puntos_energia=puntos_energia,ataque=ataque)
 
-        def habla(self):
-            print("Hummm....*")
+class Zombie(Enemigo):
+    def __init__(self, punto_energia=10, ataque=1):
+        super().__init__(tipo_enemigo='Zombie', punto_energia=punto_energia, ataque=ataque)
 
-        def propagar_enfermedad(self):
-            print("el zombie esta tratando de propagar la enfermedad!!")
+    def habla(self):
+        print("Hummmm......")
+
+    def propagar_enfermedad(self):
+        print("El xombie esta tratando de propagar la enferm3edad!!")
