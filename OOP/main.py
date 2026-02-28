@@ -29,7 +29,7 @@ def batalla(e1: Enemigo, e2: Enemigo):
 
 print("==============BATALLA==============")
 
-batalla(Zombie, Ogro)
+batalla(zombie, ogro)
 
 print("=========FIN DE LA BATALLA=========")
 
